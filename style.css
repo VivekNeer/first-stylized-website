@@ -44,7 +44,6 @@ a {
     display: flex;
     color: white;
     background-color: #1F2937;
-    flex-shrink: 0;
     justify-content: center;
     align-items: center;
     font-weight: 100;
@@ -103,7 +102,6 @@ button {
     font-size: 16px;
     font-weight: bold;
     border-radius: 8px;
-    flex-shrink: 0;
 }
 
 .sign {
@@ -122,7 +120,6 @@ button {
     width: 500px;
     margin: 70px;
     margin-top: 50px;
-    flex-shrink: 0;
 }
 
 .two {
