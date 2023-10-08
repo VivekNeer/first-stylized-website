@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
 body {
-  height: 100vh;
-  margin: 0;
-  overflow: hidden;
-  font-family: Roboto, sans-serif;
-  display: flex;
-  flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -52,4 +53,74 @@ a {
     font-size: 15px;
     padding: 18px;
     margin-top: auto;
+}
+
+.one {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: row;
+    color: white;
+    height: 900px;
+}
+
+.ls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 800px;
+    margin-left: 100px;
+}
+
+.awesome {
+    display: flex;
+    flex-wrap: wrap;
+    color: #E5E7EB !important;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    flex-wrap: wrap;
+    margin: 0px;
+    color: white;
+}
+
+p {
+    margin: 5px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.sign {
+    display: flex;
+    justify-content: flex-start;
+    height:40px;
+    width: 530px;
+}
+
+
+.placeholder {
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png");
+    height: 200px;
+    width: 500px;
+    margin: 70px;
+    flex-shrink: 0;
 }
