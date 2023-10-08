@@ -129,17 +129,40 @@ button {
     display: flex;
     flex-direction: column;
     background-color: white;
-    height: 350px;
+    height: 500px;
     justify-content: space-around;
     align-items: center;
-
 }
 
-.card {
+.text {
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+
+.info {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    gap: 25px;
+    border:100px;
+}
+
+.card {
+    width: 200px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+img{
+    width:150px ;
+    margin:18px ;
 }
 
 .third {
@@ -169,4 +192,30 @@ button {
     justify-content: flex-end;
     font-size: 20px;
     font-weight: bold;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 1280px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 200px;
+    width: 800px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.action{
+    color: white;
+    flex-wrap: wrap;
+    width:400px ;
 }
